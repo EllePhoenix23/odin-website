@@ -1,5 +1,6 @@
 body {
     font-family: "Segoe UI", sans-serif;
+    background-color: #F9FAF8;
     height: 100vh;
     margin: 0;
     display: flex;
@@ -12,25 +13,29 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #1F2937;
-}
-
-.header,
-.section {
-    padding-left: 15%;
-    padding-right: 15%;
 }
 
 .header,
 .footer {
-    padding-top: 8px;
-    padding-bottom: 8px;
+    padding: 16px 15%;
+}
+
+.header,
+.section.one,
+.footer {
+    background-color: #1F2937;
+}
+
+.header,
+.head,
+button,
+.callhead {
+    color: #F9FAF8;
 }
 
 .logo {
     font-size: 32px;
     font-weight: 500;
-    color: #F9FAF8;
 }
 
 .navigation {
@@ -43,5 +48,56 @@ body {
 
 a {
     text-decoration: none;
-    color: #F9FAF8;
+}
+
+a,
+.headtext,
+.calltext,
+.footer {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+/* first section */
+
+.section {
+    display: flex;
+    align-items: center;
+}
+
+.section.one {
+    justify-content: space-between;
+    padding: 64px 15%;
+    gap: 32px;
+}
+
+.head {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.head,
+.headtext {
+    margin-bottom: 16px;
+}
+
+button,
+.section.four {
+    background-color: #3882F6;
+    border-radius: 8px;
+}
+
+button {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px 24px;
+}
+
+.signin {
+    border: none;
+}
+
+.mainimg {
+    width: 600px;
+    height: auto;
 }
