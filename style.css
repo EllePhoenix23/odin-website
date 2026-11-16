@@ -51,8 +51,7 @@ a {
 }
 
 a,
-.headtext,
-.calltext,
+.text,
 .footer {
     font-size: 18px;
     color: #E5E7EB;
@@ -77,7 +76,7 @@ a,
 }
 
 .head,
-.headtext {
+.text {
     margin-bottom: 16px;
 }
 
