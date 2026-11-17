@@ -174,3 +174,27 @@ button {
     align-self: flex-end;
     font-weight: bold;
 }
+
+/* section four */
+
+.section.four {
+    margin: 64px 15%;
+    padding: 24px 72px;
+    gap: 72px;
+}
+
+.callhead {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 8px; 
+}
+
+.subscribe {
+    border: solid #F9FAF8;
+}
+
+/* footer */
+
+.footer {
+    text-align: center;
+}
