@@ -62,21 +62,26 @@ a,
 .section {
     display: flex;
     align-items: center;
+    padding: 64px 15%;
 }
 
 .section.one {
     justify-content: space-between;
-    padding: 64px 15%;
     gap: 32px;
 }
 
 .head {
     font-size: 48px;
+}
+
+.head,
+.subhead {
     font-weight: 900;
 }
 
 .head,
-.text {
+.text,
+.icon {
     margin-bottom: 16px;
 }
 
@@ -99,4 +104,45 @@ button {
 .mainimg {
     width: 600px;
     height: auto;
+}
+
+/* second section */
+
+.section.two {
+    flex-direction: column;
+    color: #1F2937;
+}
+
+.container.two {
+    display: flex;
+}
+
+.subhead {
+    margin-bottom: 32px;
+    font-size: 36px;
+}
+
+.icon {
+    width: 100px;
+    height: 100px;
+    mask-size: cover;
+    mask-repeat: no-repeat;
+    mask-position: center;
+    mask-mode: alpha;
+}
+
+.game {
+    mask-image: url(https://img.icons8.com/?size=160&id=JtRYpjtdhzhs&format=png);
+}
+
+.code {
+    mask-image: url(https://img.icons8.com/?size=160&id=114117&format=png);
+}
+
+.brain{
+    mask-image: url(https://img.icons8.com/?size=160&id=4hGUZoWc6Eyu&format=png);
+}
+
+.people {
+    mask-image: url(https://img.icons8.com/?size=128&id=1Wf241bLN9LO&format=png);
 }
