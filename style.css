@@ -111,10 +111,13 @@ button {
 .section.two {
     flex-direction: column;
     color: #1F2937;
+    text-align: center;
 }
 
 .container.two {
     display: flex;
+    gap: 52px;
+    justify-content: center;
 }
 
 .subhead {
@@ -139,10 +142,14 @@ button {
     mask-image: url(https://img.icons8.com/?size=160&id=114117&format=png);
 }
 
-.brain{
+.brain {
     mask-image: url(https://img.icons8.com/?size=160&id=4hGUZoWc6Eyu&format=png);
 }
 
 .people {
     mask-image: url(https://img.icons8.com/?size=128&id=1Wf241bLN9LO&format=png);
+}
+
+.info {
+    max-width: 200px;
 }
